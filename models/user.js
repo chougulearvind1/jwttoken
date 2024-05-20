@@ -24,4 +24,5 @@ const userSchema= new mongoose.Schema({
     dateOfBirth:String
 },{timestamps:true});
 
-module.export=mongoose.model('user',userSchema);
+const md=mongoose.model('User',userSchema);
+module.exports=md
